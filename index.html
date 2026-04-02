@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="header"><h1>To Do List</h1></div>
+      <div class="input">
+        <input type="text" id="taskInput" placeholder="Add a new task..." />
+        <input type="hidden" name="taskId" id="taskId" value="" />
+        <button id="addTaskButton">Add</button>
+        <button id="allClear">Clear All</button>
+      </div>
+    </section>
+    <section class="taskListContainer">
+      <ul id="taskList"></ul>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
